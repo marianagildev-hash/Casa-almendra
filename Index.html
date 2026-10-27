@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Repostería artesanal para compartir momentos especiales.">
+    <title>Dulce Hogar | Repostería artesanal</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <a class="logo" href="#inicio">Dulce Hogar</a>
+
+        <nav class="nav" id="nav">
+            <a href="#inicio">Inicio</a>
+            <a href="#productos">Productos</a>
+            <a href="#nosotros">Nosotros</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+
+        <button class="menu-toggle" id="menu-toggle"
+                aria-label="Abrir menú" aria-expanded="false">
+            ☰
+        </button>
+    </header>
+
+    <main>
+        <section class="hero" id="inicio">
+            <div class="hero-content">
+                <p class="eyebrow">REPOSTERÍA ARTESANAL</p>
+                <h1>Pequeños detalles, grandes sabores.</h1>
+                <p>
+                    Tortas y postres preparados con cariño
+                    para acompañar tus momentos especiales.
+                </p>
+                <a class="button" href="#productos">
+                    Descubre nuestros productos
+                </a>
+            </div>
+
+            <div class="hero-image">
+                <img
+                    src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=1000&q=85"
+                    alt="Torta decorada de repostería">
+            </div>
+        </section>
+
+        <section class="products section" id="productos">
+            <div class="section-heading">
+                <p class="eyebrow">HECHOS CON AMOR</p>
+                <h2>Nuestros favoritos</h2>
+                <p>Una selección de dulces para disfrutar y compartir.</p>
+            </div>
+
+            <div class="product-grid">
+                <article class="product-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=700&q=80"
+                        alt="Torta de chocolate">
+                    <div class="product-info">
+                        <h3>Torta de chocolate</h3>
+                        <p>Bizcocho suave con una deliciosa cobertura.</p>
+                        <span>$45.000 COP</span>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?auto=format&fit=crop&w=700&q=80"
+                        alt="Cupcakes decorados">
+                    <div class="product-info">
+                        <h3>Cupcakes</h3>
+                        <p>Pequeños antojos para cualquier ocasión.</p>
+                        <span>$8.000 COP</span>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?auto=format&fit=crop&w=700&q=80"
+                        alt="Torta para celebración">
+                    <div class="product-info">
+                        <h3>Tortas especiales</h3>
+                        <p>Diseños para celebrar tus momentos favoritos.</p>
+                        <span>Desde $65.000 COP</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="about section" id="nosotros">
+            <p class="eyebrow">NUESTRA ESENCIA</p>
+            <h2>Endulzamos tus momentos especiales.</h2>
+            <p>
+                En Dulce Hogar creemos que cada celebración merece
+                un detalle especial. Creamos postres para compartir,
+                regalar y disfrutar.
+            </p>
+        </section>
+
+        <section class="contact section" id="contacto">
+            <p class="eyebrow">ESTAMOS PARA TI</p>
+            <h2>¿Se te antojó algo dulce?</h2>
+            <p>Contáctanos para consultar productos y pedidos.</p>
+            <a class="button" href="#" id="whatsapp-link">
+                Consultar por WhatsApp
+            </a>
+            <p class="notice">
+                Proyecto demostrativo. Los productos y precios son ficticios.
+            </p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© <span id="year"></span> Dulce Hogar · Proyecto demostrativo</p>
+    </footer>
+</body>
+</html>
